@@ -37,3 +37,16 @@ console.log(Object.keys(tinderUser)); //Returns the names of the enumerable stri
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+//Object Destructuring 
+const course ={
+    courseNAme :"JS",
+    price: 999,
+    courseInstructor:"hitesh "
+}
+
+const {courseInstructor :instructor} = course
+//console.log(courseInstructor)
+console.log(instructor);
+
