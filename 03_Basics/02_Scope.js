@@ -1,3 +1,4 @@
+// we always use let or const in scope because the scope of var is completely global where as let and const can be used as either local or global 
 //  var c =300
 //  let a =100
 
