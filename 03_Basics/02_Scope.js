@@ -44,8 +44,8 @@ function addone (num){
 }
 
 
-addTwo(6)
-const addTwo = funtion(num){
-    return  num + 2
-}
+// addTwo(6)
+// const addTwo = funtion(num){
+//     return  num + 2
+// }
  
