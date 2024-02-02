@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Amit Tutorial </h1>
+    <button id="Stop" >Stop</button>
+</body>
+<script>
+    const sayAmit = function(){
+        console.log("Amit");
+    }
+
+    //document .querySelector('h1').innerHTML = "Ankit Tutorial"
+
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "Ankit Tutorial"
+    }
+    setTimeout(changeText,2000); //It will change the h1 text of the Html tag after 2 seconds  
+
+
+
+    setTimeout(sayAmit,2000);
+</script>
+</html>
