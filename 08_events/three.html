@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Amit Tutorial </h1>
+    <button id="Start" >Start</button>
+    <button id="Stop" >Stop</button>
+</body>
+<script>
+    //The setInterval() method, offered on the Window and WorkerGlobalScope interfaces, repeatedly calls a function or executes a code snippet, with a fixed time delay between each call.
+    const sayDate = function(str){
+        console.log(str , Date.now());
+    }
+   const Intervalid = setInterval(sayDate,1000,"Hii") 
+    clearInterval(Intervalid)
+
+</script>
+</html>

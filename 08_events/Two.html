@@ -27,8 +27,11 @@
     }
     setTimeout(changeText,2000); //It will change the h1 text of the Html tag after 2 seconds  
 
-
-
-    setTimeout(sayAmit,2000);
+    const changeMe = setTimeout(sayAmit,2000);
+    document.querySelector('#Stop').addEventListener('click',function(){
+        clearTimeout(changeMe)
+        console.log("Stopped");
+    })
+    //clearTimeout(changeMe)
 </script>
 </html>
